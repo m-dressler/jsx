@@ -1,0 +1,9 @@
+{
+  "name": "@md/jsx",
+  "version": "0.0.0",
+  "exports": "./mod.ts",
+  "license": "ISC",
+  "compilerOptions": {
+    "lib": ["dom", "es2019"]
+  }
+}
