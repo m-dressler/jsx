@@ -33,7 +33,7 @@ const createElement = (
   type: string | typeof Fragment,
   props: null | { [key: string]: unknown },
   ...children: (Child | Iterable<Child>)[]
-) => {
+): HTMLElement | DocumentFragment => {
   const element =
     type === Fragment
       ? document.createDocumentFragment()
